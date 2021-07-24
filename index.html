@@ -97,10 +97,14 @@ em, i {
 
 div.section {
   clear: both;
-  /* margin-bottom: 1.2em; */
+   margin-bottom: 1.2em; 
   margin-top: 3em;
   /* background: #F4F6F6; */
   background: #FFFFFF;
+  border-top-right-radius:10px; 
+  border-top-left-radius:10px; 
+  border-bottom-left-radius:10px; 
+  border-bottom-right-radius:10px;
 }
 
 div.spanner {
@@ -326,7 +330,7 @@ ol {
 
 <!-- <script src="./files/main.js"></script> -->
 
-<body style="background-color:#FFFFFF">
+<body >
   
   <ol id="nav">
     <li><a href="mailto:eugene.j.yonng@gmail.com" title="Contact">Contact</a></li>
@@ -340,22 +344,196 @@ ol {
 <div style="margin-bottom: 1em; border: 1px solid #ddd; background-color: #fff; padding: 1em; height: 140px;">
 <div style="margin: 0px auto; width: 100%;">
 <img title="Zhikang Zou (邹智康)" style="float: left; padding-left: .01em; height: 140px;" src="zhikang.jpeg" alt="Zhikang Zou" />
-<div style="padding-left: 12em; vertical-align: top; height: 120px;"><span style="line-height: 150%; font-size: 20pt;">Zhikang Zou (邹智康)</span><br />
-<span><strong>Baidu VIS R&D Engineer</strong></span><br />
-<span>Department of Computer Vision Technology (VIS) </span> <br />
-<span>Baidu Inc.</span><br />
+<div style="padding-left: 12em; vertical-align: top; height: 120px;"><span style="line-height: 180%; font-size: 20pt;">Zhikang Zou (邹智康)</span><br />
+<span style="font-size: 12pt">Baidu VIS R&D Engineer</span><br />
+<span style="font-size: 12pt">Department of Computer Vision Technology (VIS) </span> <br />
+<span style="font-size: 12pt">Baidu Inc.</span><br /><br /></div>
+<a href='https://scholar.google.com/citations?user=T-YePFgAAAAJ&hl=zh-CN' style="padding-left: 3.7em; font-size: 12pt">Google Scholar</a>&nbsp;/&nbsp;<a href='https://github.com/BigTeacher-777' style="font-size: 12pt">Github</a>&nbsp;/&nbsp;<a href='mailto:zhikangzou001@gmail.com' style="font-size: 12pt">Email</a>
 </div>
 </div>
 </div>
 
 <div style="clear: both;">
-<div class="section">
+<div class="section" style="padding-left: 0.8em; padding-top: 1em">
 <!-- <h2>(<a href='https://scholar.google.com/citations?user=kWADCMUAAAAJ&hl=zh-CN'>Google scholar</a>)</h2> -->
-<h2>About Me </h2>
-<div class="bio">
-  TEST
+<h2>About me</h2>
+<div class="bio" style="font-size: 12pt;">
+
+I am currently working at Baidu Inc. as a computer vision researcher. I received my bachelor degree and master degree from Huazhong University of Science and Technology in 2020, advised by <a href='https://scholar.google.com/citations?user=cTpFPJgAAAAJ&hl=en'>Prof. Pan Zhou</a>. I had a great time as a research intern at Tecent AI lab at Shenzhen, advised by <a href='https://linchaobao.github.io/'>Linchao Bao</a>. My research interests are in computer vision and machine learning, with specific interest in 3D vision and crowd counting.
+  
 </div>
 </div>
+
+<a name="news"></a>
+<div style="clear: both;">
+<div class="section" style="padding-left: 0.8em; padding-top: 1em">
+  <h2>News</h2>
+  <div class="paper" style="font-size: 12pt">
+    <ul>
+    <li> 2021.07: Two paper accepted by <font color="DarkRed">ICCV2021</font>. It is also my first monocular 3D detection paper.</li>
+    <li> 2021.07: Three paper accepted by <font color="DarkRed">ACMMM2021</font>.</li>
+    <li> 2021.05: We <font color="Red">rank second</font> in the <font color="DarkBlue">Argoverse Stereo Matching</font> of the CVPR2021 workshop.</li>
+    <li> 2020.08: We <font color="Red">rank third</font> in the <font color="DarkBlue">BOP Challenge 2020</font> of the ECCV2020 workshop.</li>
+    <li> 2021.07: One paper accepted by <font color="DarkRed">ACMMM2020</font>.</li>
+    <li> 2020.07: Joined Baidu Inc. at Shenzhen as a computer vision researcher. Foucs on 3D Vision. </li>
+    <li> 2020.06: One counting paper accepted by <font color="DarkRed">ECAI2020</font>. </li>
+    <li> 2019.07: One counting paper accepted by <font color="DarkRed">BMVC2019</font>. </li>
+    <li> 2019.02: One paper accepted by <font color="DarkRed">NAACL2019</font>
+    <li> 2018.12: Joined Tecent AI lab at Shenzhen as research intern. Started doing research on 3D Vision. </li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<a name="pub"></a>
+<div style="clear: both;">
+<div class="section" style="padding-left: 0.8em; padding-top: 1em">
+<h2 id="confpapers">Publications (* = co-first author)</h2>
+<div class="paper" id="xxx"><img class="paper" src="papers/DFRNet.jpeg" />
+  <div>
+    <a><b>The Devil is in the Task: Exploiting Reciprocal Appearance-Localization Features for Monocular 3D Object Detection</b></a><br />
+    <u><b style="color:darkred">Zhikang Zou*</b></u>, Xiaoqing Ye*, Liang Du*, Xianhui Cheng*, Xiao Tan, Li Zhang, Jianfeng Feng, Xiangyang Xue, Errui Ding <br />
+    <i>IEEE International Conference on Computer Vision <b><font color="DarkRed">(ICCV)</font></b>, 2021 </i><br />
+    [ <a href=''>PDF</a> ]
+    [ <a href=''>Code</a> ] <br />
+    <!-- <alert>An effective self-supervised video representation learning framework.</alert> -->
+  </div>
+  <div class="spanner"></div>
+</div>
+
+<div class="paper" id="xxx"><img class="paper" src="papers/ASNet.png" />
+  <div>
+    <a><b>Coarse to Fine: Domain Adaptive Crowd Counting via Adversarial Scoring Network</b></a><br />
+    <u><b style="color:darkred">Zhikang Zou*</b></u>, Xiaoye Qu*, Pan Zhou, Shuangjie Xu, Xiaoqing Ye, Wenhao Wu, Jin Ye <br />
+    <i> ACM International Conference on Multimedia <b> <font color="DarkRed">(ACMMM)</font></b>, 2021</i> <br />
+    [ <a href=''>PDF</a> ]
+    [ <a href=''>Code</a> ] <br />
+    <!-- <alert>An effective self-supervised video representation learning framework.</alert> -->
+  </div>
+  <div class="spanner"></div>
+</div>
+
+<div class="paper" id="xxx"><img class="paper" src="papers/APAM.png" style="height:60px"/>
+  <div>
+    <a><b>Towards Adversarial Patch Analysis and Certified Defense against Crowd Counting</b></a><br />
+    Qiming Wu*, <u><b style="color:darkred">Zhikang Zou*</b></u>, Pan Zhou, Xiaoqing Ye, Binghui Wang, Ang Li<br />
+    <i> ACM International Conference on Multimedia <b> <font color="DarkRed">(ACMMM)</font></b>, 2021</i> <br />
+    [ <a href=''>PDF</a> ]
+    [ <a href=''>Code</a> ] <br />
+    <!-- <alert>An effective self-supervised video representation learning framework.</alert> -->
+  </div>
+  <div class="spanner"></div>
+</div>
+
+<div class="paper" id="xxx"><img class="paper" src="papers/DSANet.png" />
+  <div>
+    <a><b>DSANet: Dynamic Segment Aggregation Network for Video-Level Representation Learning</b></a><br />
+    Wenhao Wu*, Yuxiang Zhao*, Yanwu Xu, Xiao Tan, Dongliang He, <u><b style="color:darkred">Zhikang Zou</b></u>, Jin Ye, Yingying Li, Mingde Yao, Zichao Dong,
+    Yifeng Shi <br />
+    <i> ACM International Conference on Multimedia <b> <font color="DarkRed">(ACMMM)</font></b>, 2021</i> <br />
+    [ <a href='https://arxiv.org/pdf/2105.12085.pdf'>PDF</a> ]
+    [ <a href='https://github.com/whwu95/DSANet'>Code</a> ] <br />
+  </div>
+  <div class="spanner"></div>
+</div>
+
+<div class="paper" id="xxx"><img class="paper" src="papers/bop_challenge2020.jpeg" style="height:50px"/>
+  <div>
+    <a><b>Leaping from 2D Detection to Efficient 6DoF Object Pose Estimation</b></a><br />
+    Jinhui Liu*,  <u><b style="color:darkred">Zhikang Zou*</b></u>, Xiaoqing Ye*, Xiao Tan, Errui Ding, Feng Xu, Xin Yu<br />
+    <i> European Conference on Computer Vision <b> <font color="DarkRed">(ECCV)</font></b>, 2020 workshop</i> <br />
+    [ <a href='https://link.springer.com/chapter/10.1007/978-3-030-66096-3_47'>PDF</a> ]<br />
+  </div>
+  <div class="spanner"></div>
+</div>
+
+<div class="paper" id="xxx"><img class="paper" src="papers/FIAN.png" style="height:60px"/>
+  <div>
+    <a><b>Fine-grained Iterative Attention Network for TemporalLanguage Localization in Videos</b></a><br />
+    Xiaoye Qu*, Pengwei Tang*, <u><b style="color:darkred">Zhikang Zou</b></u>, Yu Cheng, Jianfeng Dong, Pan Zhou<br />
+    <i> ACM International Conference on Multimedia <b> <font color="DarkRed">(ACMMM)</font></b>, 2020</i> <br />
+    [ <a href='https://dl.acm.org/doi/abs/10.1145/3394171.3414053'>PDF</a> ]<br />
+    <!-- <alert>An effective self-supervised video representation learning framework.</alert> -->
+  </div>
+  <div class="spanner"></div>
+</div>
+
+<div class="paper" id="xxx"><img class="paper" src="papers/HSRNet.png"/>
+  <div>
+    <a><b>Crowd Counting via Hierarchical Scale Recalibration Network</b></a><br />
+    <u><b style="color:darkred">Zhikang Zou*</b></u>, Yifan Liu*, Shuangjie Xu, Wei Wei, Shiping Wen, Pan Zhou<br />
+    <i> European Conference on Artificial Intelligence <b> <font color="DarkRed">(EACI)</font></b>, 2020</i> <br />
+    [ <a href='https://arxiv.org/abs/2003.03545'>PDF</a> ] <br />
+    <!-- <alert>An effective self-supervised video representation learning framework.</alert> -->
+  </div>
+  <div class="spanner"></div>
+</div>
+
+<div class="paper" id="xxx"><img class="paper" src="papers/E3D.jpeg"/>
+  <div>
+    <a><b>Enhanced 3D Convolutional Networks for Crowd Counting</b></a><br />
+    <u><b style="color:darkred">Zhikang Zou*</b></u>, Huiliang Shao*, Xiaoye Qu, Wei Wei, Pan Zhou<br />
+    <i> British Machine Vision Conference <b> <font color="DarkRed">(BMVC)</font></b>, 2019</i> <br />
+    [ <a href='https://arxiv.org/abs/1908.04121'>PDF</a> ]<br />
+    <!-- <alert>An effective self-supervised video representation learning framework.</alert> -->
+  </div>
+  <div class="spanner"></div>
+</div>
+
+<div class="paper" id="xxx"><img class="paper" src="papers/ACAN.png"/>
+  <div>
+    <a><b>Adversarial Category Alignment Network for Cross-domain Sentiment Classification</b></a><br />
+    Xiaoye Qu*, <u><b style="color:darkred">Zhikang Zou*</b></u>, Yu Cheng, Yang Yang, Pan Zhou<br />
+    <i> Annual Conference of the North American Chapter of the Association for Computational Linguistics <b> <font color="DarkRed">(NAACL)</font></b>, 2019</i> <br />
+    [ <a href='https://aclanthology.org/N19-1258/'>PDF</a> ]
+    [ <a href='https://github.com/XiaoYee/ACAN'>Code</a> ] <br />
+    <!-- <alert>An effective self-supervised video representation learning framework.</alert> -->
+  </div>
+  <div class="spanner"></div>
+</div>
+
+<div class="paper" id="xxx"><img class="paper" src="papers/ACM-CNN.png" style="height:100px"/>
+  <div>
+    <a><b>Attend To Count: Crowd Counting with Adaptive Capacity Multi-scale CNNs</b></a><br />
+    <u><b style="color:darkred">Zhikang Zou</b></u>, Yu Cheng, Xiaoye Qu, Shouling Ji, Xiaoxiao Guo, Pan Zhou<br />
+    <i> <b> <font color="DarkRed">Neurocomputing</font></b>, 2019</i> <br />
+    [ <a href='https://arxiv.org/abs/1908.02797'>PDF</a> ]<br />
+    <!-- <alert>An effective self-supervised video representation learning framework.</alert> -->
+  </div>
+  <div class="spanner"></div>
+</div>
+
+<div class="paper" id="xxx"><img class="paper" src="papers/DANet.png" style="height:100px"/>
+  <div>
+    <a><b>DA-Net: Learning the fine-grained density distribution with deformation aggregation network</b></a><br />
+    <u><b style="color:darkred">Zhikang Zou</b></u>, Xinxing Su, Xiaoye Qu, Pan Zhou<br />
+    <i> <b> <font color="DarkRed">IEEE Access</font></b>, 2018</i> <br />
+    [ <a href='https://ieeexplore.ieee.org/document/8497050'>PDF</a> ]
+    [ <a href='https://github.com/BigTeacher-777/DA-Net-Crowd-Counting'>Code</a> ]<br />
+    <!-- <alert>An effective self-supervised video representation learning framework.</alert> -->
+  </div>
+  <div class="spanner"></div>
+</div>
+</div>
+</div>
+
+<div style="clear: both;">
+<div class="section" style="padding-left: 0.8em; padding-top: 1em">
+<h2 id="confpapers">Contests</h2>
+<div class="paper">
+<ul>
+<li>CVPR2021 Argoverse SStereo Matching: 2nd in contest setting.</li>
+<li>ECCV2020 BOP Challenge: 3st place in RGB-based pose estimation</li>
+</ul>
+<div class="spanner"></div>
+</div>
+</div>
+</div>
+
+<div style="clear:both;">
+<p align="right"><font size="5">Last Updated on 24st July, 2021</a></font></p>
+</div>
+
 
 </body>
 </html>
